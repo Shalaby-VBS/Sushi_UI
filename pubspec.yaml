@@ -1,0 +1,36 @@
+name: flutter_japanese_restaurant_app
+description: Japanese restaurant app built in flutter using GetX | Bloc | Cubit | Provider
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_rating_bar: ^4.0.1
+  font_awesome_flutter: ^10.6.0
+  get: ^4.6.6
+  badges: ^3.1.2
+  animations: ^2.0.8
+  simple_animations: ^5.0.2
+
+dev_dependencies:
+  flutter_lints: ^3.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: AppIcon
+      fonts:
+        - asset: assets/fonts/AppIcon.ttf
